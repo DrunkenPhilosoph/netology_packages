@@ -5,6 +5,9 @@ import datetime
 date_now = datetime.datetime.now()
 print(date_now)
 
+def main():
+    print(calcualte_salary(2))
+    print(get_employees('Тествич'))
+
 if __name__ == '__main__':
-    print(calcualte_salary(3))
-    print(get_employees(2))
+    main()
